@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/client/",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d"
+    "build": "vite build",
+    "preview": "vite preview"
+
   },
   "dependencies": {
     "postcss-flexbugs-fixes": "^5.0.2",
